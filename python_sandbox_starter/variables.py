@@ -14,6 +14,18 @@ VARIABLE RULES:
   - Can have numbers but can not start with one
 """
 
-x = 1
-y = 2.5
-name = 'John'
+# x = 1
+# y = 2.5
+# name = 'John'
+# is_cool = True
+
+# Multiple assignment
+x, y, name, is_cool = (1, 2.5, 'John', True)
+
+# Casting
+x = str(x)
+y = int(y)
+z = float(y)
+
+print(x, y, name, is_cool)
+print(type(z), z)
